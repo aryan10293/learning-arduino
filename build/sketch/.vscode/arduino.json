@@ -1,0 +1,8 @@
+#line 1 "/Users/aondrej/learning arduino/.vscode/arduino.json"
+{
+    "port": "/dev/tty.usbmodem14101",
+    "board": "arduino:avr:uno",
+    "sketch": "learning arduino.ino",
+    "output": "build",
+    "programmer": "avrisp"
+}

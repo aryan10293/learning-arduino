@@ -1,0 +1,34 @@
+#line 1 "/Users/aondrej/learning arduino/.vscode/c_cpp_properties.json"
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/**", // Include all files in the current workspace
+                "/path/to/arduino/library1", // Add the path to Arduino library 1
+                "/path/to/arduino/library2"  // Add the path to Arduino library 2
+            ],
+            "defines": [],
+            "compilerPath": "path/to/your/compiler",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
