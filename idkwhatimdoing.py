@@ -29,6 +29,7 @@ def hello_world(rock_paper_scissors):
     return
 
 
-message = hello_world('rock')
+idk_what_to_name_this = input("Please pick rock paper or scissors: ")
+message = hello_world(idk_what_to_name_this)
 
 print(message)
